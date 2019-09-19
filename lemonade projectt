@@ -1,0 +1,14 @@
+package lemonadestanddddd;
+
+import java.util.Scanner;
+
+public class lemonademulah {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+				int cups = scan.nextInt();
+				double money = 3.5;
+				System.out.println( "You have to pay " + money * cups + " for " + cups  + " cups.");
+	}
+
+}
